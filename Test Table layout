@@ -1,0 +1,56 @@
+<html>
+<head>
+  <title>Test Table layout</title>
+  <style type="text/css">
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      border: none;
+    }
+    #full { height: 100%; }
+  </style>
+</head>
+<body>
+<table bgcolor="#DE1818" width="100%" border="0" 
+  cellspacing="0" cellpadding="0">
+  <tr>
+    <td><h1 align=center>Test Table layout</h1></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" 
+  cellpadding="0" id="full">
+  <tr valign="top">
+    <td nowrap bgcolor="#d0d0d0" width="200px">
+             Projects
+<br/><a href="ProjectA">Next - eCommerce Site</a>
+<br/><a href="ProjectB">BBC - Cbeebies Playtime</a>
+<br/>
+<br/>Admin
+<br/><a href="AdminA">Cycles</a>
+<br/><a href="AdminB">Users</a>
+    </td>
+    <td>
+      <p>
+         <h1 align=center>Main Content section</h1> 
+
+         <h2 align=center> I want to somehow click on the sections on the side and make it appear in the middle here </h2>
+
+         <h3 align=center> Oh and by the way, none of the links on the sides actually work yet... sorry about that! </h3>
+
+         <h4 align=center> These keep getting smaller too, main just experimenting with how they look </h4> 
+    </td>
+    <td nowrap bgcolor="#e0e0e0" width="75px">
+     <a href="http://example1.com/">Link 1</a>
+<br/><a href="http://example2.com/">Link 2</a>
+    </td>
+  </tr>
+</table>
+<table width="100%" bgcolor="#d0d0d0" border="0" 
+  cellspacing="0" cellpadding="0">
+  <tr>
+    <td><p align="center"> TestWeb 1\Page 1 - Ryan Williams(c) 2014</td>
+  </tr>
+</table>
+</body>
+</html>
